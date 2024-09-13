@@ -1,0 +1,69 @@
+body{background-color: rgb(187, 157, 130);
+    font-family: "Chewy", system-ui;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(82, 85, 82);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+header a i{
+    font-size: 3em;
+    color: black;
+    padding: 0.5em;
+}
+header nav ul{
+    display: flex;
+    gap: 2.1em;
+}
+footer{
+    background-color: rgb(82, 85, 82);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 9em;
+}
+.titulo_seccion {
+    margin-top: 3em;
+    font-size: 3em;
+    color: #614141;
+    text-align: center;
+    }
+    .container {
+    max-width: 50%; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 1em; /* Agrega un poco de espacio alrededor del formulario */
+    border: 1em; /* Agrega un borde al contenedor */
+    border-radius: 1em; /* Agrega bordes redondeados al contenedor */
+    background-color: bisque;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    }
+    .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    }
+    label {
+    margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: auto; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+    }
+    button {
+        width: auto;
+        background-color: #ccc;
+    }

@@ -1,0 +1,163 @@
+body{background-color: rgb(187, 157, 130);
+    font-family: "Chewy", system-ui;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(82, 85, 82);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+header a i{
+    font-size: 3em;
+    color: black;
+    padding: 0.5em;
+}
+header nav ul{
+    display: flex;
+    gap: 2.1em;
+}
+.seccion1{
+display: flex;
+background-color: rgb(246, 248, 201);
+padding: 1em;
+margin: 10em;
+flex-direction: row;
+justify-content: center;
+}
+.seccion1 img{
+    display: block;
+    margin: auto;
+    width: 30em;
+    height: auto;
+}
+.seccion2 img{
+    display: block;
+   margin: auto;
+    width: 80%;
+    height: 30%;
+}
+footer{
+    background-color: rgb(82, 85, 82);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;}
+.card {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .card h2 {
+        margin: 15px 0 10px;
+    }
+    
+    .card p {
+        color: #666666;
+    }
+    .card-container img{
+        width: 15em;
+        border-radius: 1em;
+    }
+    
+    .checkbtn{
+        font-size: 2em;
+        float: right;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        line-height: 70px;
+        margin-right: 40px;
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+    /* Estilos para pantallas más pequeñas (hasta 768px) */
+   #btn-generar{
+    background-color:rgb(246, 248, 201);
+    font-size: 1.1em;
+    color: #000000;
+    border: solid black;
+    font-family:'Times New Roman', Times, serif;
+    height: 5em;
+   }
+    #frase {
+        height: 2em;
+        background-color: wheat;
+    }
+    #footer {
+        background-color: bisque;
+    }
+    @media (max-width: 768px){
+        header{
+            font-size: 12px;
+            position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+        }
+        .seccion1{
+            font-size: 12px;
+            margin: 10em;
+        }
+        .seccion1 img{
+            width: 20em;
+        }
+        .checkbtn{
+            display: block;
+        }
+        #navegador ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(216, 170, 84);
+            text-align: center;
+            top: 60px;
+            left: 100%;
+            transition: all 0.5s;
+        }
+         #check:checked~ul {
+            display: block;
+            left: 0%;
+         }
+         #navegador nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+         }
+         #navegador nav ul li a{
+            font-size: 50px;
+         }
+         #btn-generar{
+            width: 50%;
+            height: 50%;
+         }
+    }
+
+    @media (min-width: 769px) {
+        header{
+            font-size: 16px;
+        }
+        .seccion1{
+            font-size: 16px}
+        .seccion1 img{
+            width: 30em;
+        }
+    }
+    
